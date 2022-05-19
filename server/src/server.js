@@ -23,5 +23,3 @@ async function startServer() {
 }
 
 startServer();
-
-//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 token for github
