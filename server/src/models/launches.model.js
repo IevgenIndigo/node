@@ -3,7 +3,7 @@ const planets = require('./planets.mongo');
 
 const axios = require('axios');
 
-let DEFAULT_FLIGHT_NUMBER;
+let DEFAULT_FLIGHT_NUMBER = 100;
 
 async function findLaunch(filter) {
     return await launchesDatabase.findOne(filter);
